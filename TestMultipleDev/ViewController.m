@@ -20,6 +20,10 @@
     NSLog(@"继续合作");
 }
 
+- (void)fixbug{
+    NSLog(@"切换到分支，修复以前的bug");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
