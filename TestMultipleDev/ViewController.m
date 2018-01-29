@@ -20,6 +20,10 @@
     NSLog(@"继续合作");
 }
 
+- (void)fixbug{
+    NSLog(@"在分支修复bug");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
