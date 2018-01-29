@@ -14,6 +14,7 @@
 		F0C9B449201F9B0D00C61377 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0C9B447201F9B0D00C61377 /* LaunchScreen.storyboard */; };
 		F0C9B44C201F9B0D00C61377 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9B44B201F9B0D00C61377 /* main.m */; };
 		F0C9B456201F9B0D00C61377 /* TestMultipleDevUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9B455201F9B0D00C61377 /* TestMultipleDevUITests.m */; };
+		F0C9B462201FA7DD00C61377 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F0C9B461201FA7DD00C61377 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F0C9B451201F9B0D00C61377 /* TestMultipleDevUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMultipleDevUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C9B455201F9B0D00C61377 /* TestMultipleDevUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestMultipleDevUITests.m; sourceTree = "<group>"; };
 		F0C9B457201F9B0D00C61377 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0C9B460201FA7DD00C61377 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F0C9B461201FA7DD00C61377 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				F0C9B447201F9B0D00C61377 /* LaunchScreen.storyboard */,
 				F0C9B44A201F9B0D00C61377 /* Info.plist */,
 				F0C9B44B201F9B0D00C61377 /* main.m */,
+				F0C9B460201FA7DD00C61377 /* Person.h */,
+				F0C9B461201FA7DD00C61377 /* Person.m */,
 			);
 			path = TestMultipleDev;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			files = (
 				F0C9B441201F9B0D00C61377 /* ViewController.m in Sources */,
 				F0C9B44C201F9B0D00C61377 /* main.m in Sources */,
+				F0C9B462201FA7DD00C61377 /* Person.m in Sources */,
 				F0C9B43E201F9B0D00C61377 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
