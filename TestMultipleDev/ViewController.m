@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
-
+@property (nonatomic , strong) NSMutableArray *arr;
 @end
 
 @implementation ViewController
@@ -18,6 +18,7 @@
     [super viewDidLoad];
     NSLog(@"开始协同开发");
     NSLog(@"继续合作");
+    _arr = [NSMutableArray new];
 }
 
 - (void)didReceiveMemoryWarning {
