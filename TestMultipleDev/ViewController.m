@@ -21,6 +21,11 @@
     _arr = [NSMutableArray new];
 }
 
+- (void)fixbug{
+    NSLog(@"切换到分支，修复以前的bug");
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
