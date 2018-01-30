@@ -25,6 +25,10 @@
     NSLog(@"切换到分支，修复以前的bug");
 }
 
+- (void)newFunction{
+    NSLog(@"切换到分支，开发新功能");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
