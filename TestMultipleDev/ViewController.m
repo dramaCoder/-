@@ -51,6 +51,10 @@
     NSLog(@"修复beta1.0版本中的bug");
 }
 
+- (void)beta1_1_fixbug{
+    NSLog(@"修复beta1.1版本中的bug");
+    NSLog(@"优化beta1.1的性能");
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
