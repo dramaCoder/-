@@ -42,6 +42,11 @@
     NSLog(@"1.0版本的开发完毕，保存备份");
 }
 
+- (void)beta1_0_fixbug{
+    NSLog(@"修复beta1.0版本中的bug");
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
