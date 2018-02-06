@@ -20,8 +20,8 @@
     [super viewDidLoad];
 }
 
-- (void)testConflict{
-    NSLog(@"测试合并产生的冲突————在本地的修改");
+- (void)testConflictServer{
+    NSLog(@"服务器端的修改");
 }
 
 - (void)newFunction{
