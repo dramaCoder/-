@@ -42,6 +42,11 @@
     NSLog(@"1.0版本的开发完毕，保存备份");
 }
 
+- (void)phaseTwoBegin{
+    NSLog(@"开始开发2.0版本");
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
