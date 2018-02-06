@@ -20,8 +20,8 @@
     [super viewDidLoad];
 }
 
-- (void)testConflict{
-    NSLog(@"测试合并产生的冲突");
+- (void)testConflictOnServer{
+    NSLog(@"在服务器端修改测试合并产生的冲突");
 }
 
 - (void)newFunction{
