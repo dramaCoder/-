@@ -38,9 +38,6 @@
     NSLog(@"测试结果：并不能直接提交到版本库的master，只能提交到版本库的该分支上，没有该分支则会自动创建分支");
 }
 
-- (void)nextModel{
-    NSLog(@"开始2.0版本的开发");
-}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
