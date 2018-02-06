@@ -21,7 +21,7 @@
 }
 
 - (void)testConflict{
-    NSLog(@"测试合并产生的冲突");
+    NSLog(@"测试合并产生的冲突————在本地的修改");
 }
 
 - (void)newFunction{
