@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 @property (nonatomic , strong) NSMutableArray *arr;
@@ -19,6 +20,7 @@
     NSLog(@"开始协同开发");
     NSLog(@"继续合作");
     _arr = [NSMutableArray new];
+    NSLog(@"测试冲突-Alice做的修改");
 }
 
 - (void)fixbug{
