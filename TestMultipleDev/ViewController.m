@@ -29,6 +29,10 @@
     NSLog(@"切换到分支，开发新功能");
 }
 
+- (void)testBranch{
+    NSLog(@"在分支上的修改，直接提交到master");
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
