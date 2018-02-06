@@ -20,8 +20,8 @@
     [super viewDidLoad];
 }
 
-- (void)testConflictServer{
-    NSLog(@"服务器端的修改");
+- (void)testConflictLocal{
+    NSLog(@"本地的修改");
 }
 
 - (void)newFunction{
